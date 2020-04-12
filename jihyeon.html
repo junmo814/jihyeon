@@ -2,7 +2,7 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="20">
+    <meta http-equiv="refresh" content="60">
 
     <title>지현이 세상</title>
 
@@ -10,13 +10,41 @@
       .header{
         text-align : center;
         font-size: 50px; font-weight: bold;
-        border-bottom: 5px solid #dbdbdb;
+        /*border-bottom: 5px solid #dbdbdb;*/
       }
       .content{
         border-bottom: 5px solid #dbdbdb;
       }
       .footer{
         font-size: 10px; color:#dbdbdb; text-align: right;
+      }
+
+      /* Add a black background color to the top navigation */
+      .topnav {
+        background-color: #333;
+        overflow: hidden;
+      }
+
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Add a color to the active/current link */
+      .topnav a.active {
+        background-color: #4CAF50;
+        color: white;
       }
       #title{
         text-align:center; font-weight:bold; font-size:40px;
@@ -42,6 +70,14 @@
     </div>
 
     <div class="content">
+
+      <div class="topnav">
+        <a class="active" href="https://junmo814.github.io/jihyeon/jihyeon.html">Home</a>
+        <a href="https://junmo814.github.io/jihyeon/jihyeon.html">시간표</a>
+        <a href="https://junmo814.github.io/jihyeon/lol.html">인호 롤티어</a>
+
+      </div>
+
       <div class="junmo">
         <p id="title">준모의 3학년 1학기 시간표</p>
         <img wigth="500px" height="500px" src="https://raw.githubusercontent.com/junmo814/jihyeon/master/%EC%A4%80%EB%AA%A8%203%ED%95%99%EB%85%84%201%ED%95%99%EA%B8%B0%20%EC%8B%9C%EA%B0%84%ED%91%9C.jpg" alt="준모 3학년 1학기 시간표">
@@ -58,7 +94,6 @@
         <img wigth="500px" height="500px" src="https://raw.githubusercontent.com/junmo814/jihyeon/master/%EC%9D%B8%ED%98%B8%203%ED%95%99%EB%85%84%201%ED%95%99%EA%B8%B0%20%EC%8B%9C%EA%B0%84%ED%91%9C.jpg" alt="인호 3학년 1학기 시간표">
 
         <iframe src="http://www.op.gg/summoner/userName=%ED%98%B8%EC%9D%B8%EC%B2%9C" width="100%" height="350px">
-   <p>인호 티어</p>
 </iframe>
       </div>
     </div>
